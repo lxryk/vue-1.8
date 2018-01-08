@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body,html{
+    width:100%;
+    height:100%;
+    overflow: hidden;
+}
+#root{
+    width:100%;
+    height:100%;
+}
+.bodytop{
+    width:100%;
+    height:100%;
+    position: absolute;
+    top: 40px;
+}
+.top{
+    width:100%;
+    height:40px;
+    background: #ccc;
+    line-height: 40px;
+    text-align: center;
+}
+.body{
+    width:100%;
+    height:100%;
+}
+.left{
+    width:20%;
+    height:100%;
+    border-right: 1px solid #807d7d;
+    float:left;
+    overflow: scroll;
+    padding-left:50px;
+}
+.right{
+    width:80%;
+    height:100%;
+    float: right;
+    overflow: scroll;
+    padding-left:20px;
+}
+.quick{
+    width:100%;
+    height:200px;
+    border:1px solid red;
+    position: absolute;
+    top: 40px;
+}
+
